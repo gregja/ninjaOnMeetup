@@ -283,7 +283,7 @@ Besoin d'un serveur web ?
 Pour une démo aussi simple que celle-ci, basée exclusivement sur du code Javascript
 "front" (pour navigateur), un serveur web n'est pas utile.
 
-Mais dans des cas comme celui-ci, j'utilise volontiers NodeJS et le package
+Mais même dans des projets simples comme celui-ci, j'utilise volontiers NodeJS et le package
 http-server. Il permet de mettre en route un serveur web minimaliste :
 
 https://www.npmjs.com/package/http-server
