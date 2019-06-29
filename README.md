@@ -149,20 +149,20 @@ ma disposition, telles que :
 - programmer l'effet de transition en utilisant du CSS3, et donc sans toucher
  au canvas
 
-La solution du CSS3 est très intéressante, d'autant qu'elle contient de nombreux
-effet de transformation qui sont relativement faciles à mettre en oeuvre (mais
+La solution de la norme CSS3 est très intéressante, d'autant qu'elle contient de nombreux
+effets de transformation qui sont relativement faciles à mettre en oeuvre (mais
 ils nécessitent une bonne connaissance de CSS3 et un peu de pratique). En plus
 les effets fournis par CSS3 sont prêts à l'emploi, pas besoin de les programmer
 vous même (il faut juste les paramétrer correctement), c'est un sacré gain de
 temps sachant que la programmation d'effets visuels peut vite devenir complexe
-et surtout être chronophage.
+et surtout chronophage.
 
 J'ai découvert récemment un petit framework CSS, qui s'appelle "Animate.css",
 et qui propose une palette d'effets CSS3 prêts à l'emploi. Cela simplifie
 un peu plus l'utilisation de CSS3, quand on n'est pas à l'aise avec le sujet,
 ou que l'on est pris par le temps (comme dans un hackaton par exemple).
 
-C'est l'un de ces effets (fadein/fadeout) de "Animate.css" que j'ai utilisé ici.
+C'est l'un des effets (fadein/fadeout) de "Animate.css" que j'ai utilisé ici.
 
 Lien vers le projet Animate.css :
 
