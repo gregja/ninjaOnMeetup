@@ -72,7 +72,7 @@ Je n'en ai pas eu besoin ici, mais il faut savoir que l'on peut aussi utiliser
 les Promises pour charger plusieur images de manière asynchrone, et lancer une action spécifique
 (comme le démarrage d'un tableau de jeu), une fois que toutes les images sont
 chargées, c'est à dire une fois que toutes les Promises sont terminées.
-Concrètement, on charge toutes les Promises dans un tableau Javascript, et on
+Concrètement, on charge toutes les Promises dans un tableau Javascript, et on lance
 la fonction Promise.all() pour détecter le moment où toutes les Promises sont finies.
 
 Voici un exemple de mise en application :
@@ -104,7 +104,7 @@ les pixels de l'image d'origine, tel qu'expliqué ci-dessous :
 
 Prendre une image de X sur Y pixels et recomposer ses pixels pairs et impairs
 en 4 photos, selon la répartition suivante :
-
+```javascript
           Pairs ! Pairs
 ----------------------------------
    Pairs  !  1  !  2  ! Impairs
@@ -112,7 +112,7 @@ en 4 photos, selon la répartition suivante :
    Pairs  !  3  !  4  ! Impairs
 ----------------------------------
         Impairs ! Impairs
-
+```
 Explication :
 L’écran graphique est décomposé en 4 zones de taille égale composées comme suit :
 La zone 1 est composée des pixels horizontaux et verticaux de numéro pair
