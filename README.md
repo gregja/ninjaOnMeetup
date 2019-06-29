@@ -168,8 +168,8 @@ Lien vers le projet Animate.css :
 
 https://daneden.github.io/animate.css/
 
-Solution concurrente de Animate.css (non testée faute de temps), mais qui semble
-très intéressante car elle propose de nombreux paramétrages :
+Solution concurrente de Animate.css, non testée faute de temps, mais qui semble
+très intéressante car elle propose de nombreux paramétrages, c'est Animista :
 
 http://animista.net/play/
 
