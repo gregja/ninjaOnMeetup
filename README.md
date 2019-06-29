@@ -222,6 +222,21 @@ le second canvas, transparent, placé juste au dessus du précédent, me permet
 d'afficher des bulles générées par un algorithme de gestion de particules
 trouvé sur internet (cf. lien d'origine dans le code de la classe Particle).
 
+La superposition des canvas se fait avec l'aide de propriété CSS3, que l'on peut
+écrire directement dans le CSS de la page, ou appliquer dynamiquement via le
+langage Javascript, comme dans l'exemple suivant que j'ai utilisé au sein du projet :
+
+```javascript
+var canvas1 = document.getElementById('mycanvas1');
+var context1 = canvas1.getContext('2d');
+context1.imageSmoothingEnabled = true;
+canvas1.setAttribute('style', 'z-index:1; position: absolute; left: 10px; top: 10px;');
+var canvas2 = document.getElementById('mycanvas2');
+var context2 = canvas2.getContext('2d');
+context2.imageSmoothingEnabled = true;
+canvas2.setAttribute('style', 'z-index:0; position: absolute; left: 10px; top: 10px;');
+```
+
 Un effet très simple, associé à la variable "flag_kill_bubbles" me permet de
 faire disparaître les bulles de manière progressive, quand on presse la touche "Q".
 
