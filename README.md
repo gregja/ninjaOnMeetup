@@ -144,20 +144,34 @@ ma disposition, telles que :
 
 La solution du CSS3 est très intéressante, d'autant qu'elle contient de nombreux
 effet de transformation qui sont relativement faciles à mettre en oeuvre (mais
-ils nécessitent une bonne connaissance de CSS3 et un peu de pratique).
+ils nécessitent une bonne connaissance de CSS3 et un peu de pratique). En plus
+les effets fournis par CSS3 sont prêts à l'emploi, pas besoin de les programmer
+vous même (il faut juste les paramétrer correctement), c'est un sacré gain de
+temps sachant que la programmation d'effets visuels peut vite devenir complexe
+et surtout être chronophage.
 
-J'ai découvert un petit framework CSS, qui s'appelle "Animate.css", et qui propose
-une palette d'effets prêts à l'emploi. C'est l'un de ces effets (fadein/fadeout)
-que j'ai utilisé ici.
+J'ai découvert récemment un petit framework CSS, qui s'appelle "Animate.css",
+et qui propose une palette d'effets CSS3 prêts à l'emploi. Cela simplifie
+un peu plus l'utilisation de CSS3, quand on n'est pas à l'aise avec le sujet,
+ou que l'on est pris par le temps (comme dans un hackaton par exemple).
+
+C'est l'un de ces effets (fadein/fadeout) de "Animate.css" que j'ai utilisé ici.
 
 Lien vers le projet Animate.css :
 
 https://daneden.github.io/animate.css/
 
-Solution concurrente de Animate (non testée faute de temps), mais qui semble
-très intéressante car elle propose de nombreux paramétrage :
+Solution concurrente de Animate.css (non testée faute de temps), mais qui semble
+très intéressante car elle propose de nombreux paramétrages :
 
 http://animista.net/play/
+
+Si vous n'êtes pas à l'aise avec CSS3, vous pouvez l'étudier au travers du
+support de cours que j'ai mis en téléchargement libre sur ce dépôt :
+
+https://github.com/gregja/JSCorner
+
+-----------------
 
 A noter que pour le passage d'une scène à l'autre (en réalité d'une page à
 l'autre), j'ai utilisé un raccourci clavier, avec la touche "X".
@@ -232,18 +246,56 @@ photo pour ne pas générer trop de cylindres et conserver une bonne fluidité.
 Pendant la démo, je repositionne la photo de Ninja à la souris, et je zoome via
 les touches flèche du clavier.
 
-La pression de la touche "X" permet de baculer sur une dernière page.
+La pression de la touche "X" permet de basculer sur une dernière page.
+
 ------------------
 
-La page "ninja_happy.html" affiche une photo sans aucun effet, je l'ai ajoutée
-un peu à la dernière minute, car cette posture de Ninja - en train de dormir -
+La dernière page (ninja_happy.html) affiche une photo sans aucun effet. Je l'ai ajoutée
+un peu à la dernière minute, car je trouve cette posture de Ninja - en train de dormir -
 particulièrement amusante.
+
+-------------------
+
+Besoin d'un serveur web ?
+
+Pour une démo aussi simple que celle-ci, basée exclusivement sur du code Javascript
+"front" (pour navigateur), un serveur web n'est pas utile.
+
+Mais dans des cas comme celui-ci, j'utilise volontiers NodeJS et le package
+http-server. Il permet de mettre en route un serveur web minimaliste :
+
+https://www.npmjs.com/package/http-server
+
+L'installation est très simple, et on peut faire cohabiter plusieurs serveurs
+webs démarrés avec ce même package, il suffit pour cela de se mettre dans le
+répertoire correspondant à chaque projet, et de lancer la commande "http-server".
+Chaque instance démarrée se verra attribuer un port distinct (8080, 8081, etc.),
+c'est très pratique.
+
+On peut aussi démarrer un mini-serveur Node en lançant le script "mininode.js",
+de la façon suivante :
+
+node mininode.js
+
+C'est un script très simple que j'avais trouvé sur une page de MDN (Mozilla), je
+vous l'ai mis dans le dépôt pour l'exemple, car je n'ai pas retrouvé le lien
+de la page d'origine.
+
+Si vous avez besoin pour votre projet créatif d'un serveur de niveau plus avancé,
+nécessitant des échanges fréquents entre le navigateur et le serveur, vous pouvez
+vous tourner vers le framework Express pour Node.js.
+
+J'ai rédigé un support de cours assez complet sur Node et Express, que vous
+pouvez récupérer dans ce dépôt si le sujet vous intéresse :
+
+https://github.com/gregja/NodeJSCorner
+
 
 -------------------
 
 J'espère que le code source de cette démo, accompagné de ces explications un
 peu rapides, pourra vous aider dans la réalisation de vos projets créatifs.
 
-Au plaisir de vous retrouver à :
+Au plaisir de vous retrouver bientôt à :
 
 https://www.meetup.com/fr-FR/CreativeCodeParis/
