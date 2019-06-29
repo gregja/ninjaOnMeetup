@@ -26,6 +26,13 @@ J'ai utilisé comme protagoniste de ma présentation, un chat que je connais bie
 il s'appelle Ninja. J'ai prétexté que Ninja souffrait de trouble de la
 personnalité et avait l'impression de perdre son identité.
 
+-------------------------
+
+A noter : vous trouverez dans le répertoire "snapshots" de ce dépôt, quelques
+copies d'écran relatives aux effets décrits ci-dessous.
+
+-------------------------
+
 La photo de Ninja est tout d'abord chargée au moyen d'une Promise. Cette
 technique apparue en 2015 avec la norme ES6 de Javascript, offre l'énorme
 avantage d'exécuter des tâches de manière asynchrone, c'est à dire sans bloquer
