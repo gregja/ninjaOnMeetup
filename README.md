@@ -294,7 +294,7 @@ particulièrement amusante.
 Besoin d'un serveur web ?
 
 Pour une démo aussi simple que celle-ci, basée exclusivement sur du code Javascript
-"front" (pour navigateur), un serveur web n'est pas utile.
+"front" (pour navigateur), un serveur web n'est pas indispensable.
 
 Mais même dans des projets simples comme celui-ci, j'utilise volontiers NodeJS et le package
 http-server. Il permet de mettre en route un serveur web minimaliste :
@@ -324,6 +324,13 @@ J'ai rédigé un support de cours assez complet sur Node et Express, que vous
 pouvez récupérer dans ce dépôt si le sujet vous intéresse :
 
 https://github.com/gregja/NodeJSCorner
+
+Il est important de souligner que certaines API de la norme HTML5 ne peuvent pas
+fonctionner sur des pages webs s'exécutant sans le support d'un serveur web. Ce 
+blocage est implémenté dans les navigateurs pour des raisons de sécurité et est
+lié à CORS (Cross-origin resource sharing), un mécanisme au sujet duquel vous 
+trouverez de nombreux articles sur internet. C'est la raison pour laquelle un 
+serveur web, même minimaliste, devient vite indispensable.
 
 
 -------------------
