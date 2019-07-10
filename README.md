@@ -12,9 +12,21 @@ Nous avions pour objectif d'organiser en juin 2019 une exposition des travaux
 réalisés durant les "code kitchen", et nous avons réalisé cette exposition le
 jeudi 20 juin, à la Folie Numérique.
 
+Vous trouverez une présentation détaillée de la soirée du 20 juin sur cette page :
+
+https://github.com/gregja/CreativeCodingParis/blob/master/ParisExhibition2019.md
+
 Pendant l'une des "code kitchen", j'avais proposé le thème de la "perte d'identité",
-venant de lire le roman de Philip K. Dick dont le titre français est "Substance mort"
-(titre original : "A Scanner Darkly").
+venant de lire un roman de Philip K. Dick dont le titre français est "Substance mort"
+(titre original : "A Scanner Darkly"). C'est ce thème que j'ai choisi de développer
+pour la soirée du 20 juin.
+
+A noter que j'avais réalisé d'autres travaux durant l'une des "code kitchen" mais 
+je ne les ai pas présentés le 20 juin. Quoiqu'intéressants visuellement, je ne voyais 
+pas comment les lier à la thématique de la perte d'identité. Mais vous pouvez trouver 
+ces travaux dans le dépôt github suivant :
+
+https://github.com/gregja/psychedelic_ballads
 
 Pour ma présentation du 20 juin, j'ai eu envie de me replonger dans de vieux
 algorithmes de traitement d'image 2D, vieux parce que pour certains écrits il
