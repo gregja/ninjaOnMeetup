@@ -88,7 +88,7 @@ chargées, c'est à dire une fois que toutes les Promises sont terminées.
 Concrètement, on charge toutes les Promises dans un tableau Javascript, et on lance
 la fonction Promise.all() pour détecter le moment où toutes les Promises sont finies.
 
-Voici un exemple de mise en application :
+Voici un exemple (partiel) d'utilisation :
 
 ```javascript
 function loadImages (src) {
