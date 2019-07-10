@@ -35,8 +35,9 @@ pour moi consistait à les adapter en Javascript en utilisant au maximum les
 possibilités de l'API Canvas du HTML5.
 
 J'ai utilisé comme protagoniste de ma présentation, un chat que je connais bien,
-il s'appelle Ninja. J'ai prétexté que Ninja souffrait de trouble de la
-personnalité et avait l'impression de perdre son identité.
+il s'appelle Ninja. J'ai prétexté que Ninja souffrait de troubles de la
+personnalité et avait l'impression de perdre son identité. Rassurez-vous, c'était
+juste un prétexte, Ninja va très bien.
 
 -------------------------
 
